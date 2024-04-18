@@ -1,0 +1,77 @@
+{
+  "name": "darah-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.7.2",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "@vuepic/vue-datepicker": "^8.1.0",
+    "axios": "^1.6.7",
+    "vitest": "^1.2.2",
+    "vue": "^3.2.13",
+    "vue-axios": "^3.5.2",
+    "vue-date-pick": "^1.5.1",
+    "vue-i18n": "^9.8.0",
+    "vue-router": "^4.0.3",
+    "vue-videobg": "^2.0.0",
+    "vue3-datepicker": "^0.4.0",
+    "vuedraggable": "^2.24.3",
+    "vuelidate": "^0.7.7",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.11.13",
+    "@types/vuelidate": "^0.7.21",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/compiler-sfc": "^3.4.21",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "@vue/test-utils": "^2.4.3",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "jsdom": "^24.0.0",
+    "prettier": "^3.2.5",
+    "typescript": "~4.5.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
